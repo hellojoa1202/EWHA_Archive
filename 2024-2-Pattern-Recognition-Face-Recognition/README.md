@@ -69,5 +69,8 @@
 
 ## Files
 
-1. <sub>`cleaned_pattern_recognition.ipynb`: 외부 데이터와 개인 경로를 제외한 전처리·모델 비교·평가 코드</sub>
+1. <sub>`face-recognition.py`: 외부 데이터와 개인 경로를 제외한 전처리·모델 비교·평가 코드</sub>
 2. <sub>외부 데이터셋과 얼굴 랜드마크 파일은 포함하지 않음</sub>
+## 자료
+
+Assignment 1~3 코드·보고서, 데이터 소개서, 모델 비교 자료와 최종 얼굴 인식 프로젝트 제출본을 별도로 보관했다.
