@@ -26,5 +26,8 @@
 
 ## Files
 
-1. <sub>`cleaned_webtext_final.ipynb`: 외부 데이터 경로와 개인 파일을 제외한 전처리·텍스트 분석·네트워크·BERT 분류 코드</sub>
+1. <sub>`emotion-classification.py`: 외부 데이터 경로와 개인 파일을 제외한 전처리·텍스트 분석·네트워크·BERT 분류 코드</sub>
 2. <sub>외부 SNS 데이터와 pretrained weight는 포함하지 않음</sub>
+## 자료
+
+기말 프로젝트 제출 ZIP에는 분석 코드와 제출용 보고서 문서가 함께 포함되어 있었고, 저장소에는 재현 가능한 코드 중심으로 정리했다.
