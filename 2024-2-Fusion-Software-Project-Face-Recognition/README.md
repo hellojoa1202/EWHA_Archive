@@ -28,7 +28,7 @@
 | `02_model_training.py` | CNN 모델 정의, 학습 함수, optimizer·scheduler 설정 |
 | `03_face_detection.py` | OpenCV 기반 얼굴 검출 및 검출 결과 처리 |
 | `04_evaluation_and_inference.py` | 모델 평가, 예측 결과 시각화, 단일 이미지 추론 |
-| `cleaned_fusion.ipynb` | 원본 Colab 실험 흐름 정리본 |
+| `face-recognition.py` | 원본 Colab 실험 흐름 정리본 |
 | `data/README.md` | 외부 데이터셋 및 재현 조건 |
 
 ## 데이터 및 재현 조건
@@ -46,3 +46,6 @@
 - ResNet50: 비교 모델 중 가장 높은 인식률
 - 얼굴 검출 후 인식: 전처리 방식에 따른 성능 변화 확인
 - 최종 산출물: 모델 비교 코드, 얼굴 검출 코드, 평가·추론 코드
+## 자료
+
+계획안, 중간 연구 결과 발표 자료, 얼굴 인식 모델 비교 문서와 프로젝트 코드를 함께 정리했다.
