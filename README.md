@@ -32,5 +32,23 @@
       <td><sub>SNS 데이터셋을 활용한 Emotion Text Classification</sub></td>
       <td><sub>개인</sub></td>
     </tr>
+    <tr>
+      <td><sub>2024-2</sub></td>
+      <td><sub>융합소프트웨어프로젝트</sub></td>
+      <td><sub>한국인 얼굴 데이터셋을 활용한 얼굴 인식 모델 비교</sub></td>
+      <td><sub>개인</sub></td>
+    </tr>
+    <tr>
+      <td><sub>2024-2</sub></td>
+      <td><sub>디지털신호처리 및 실습</sub></td>
+      <td><sub>FMCW 레이더 기반 Vital Sign 측정</sub></td>
+      <td><sub>개인</sub></td>
+    </tr>
+    <tr>
+      <td><sub>2025-1</sub></td>
+      <td><sub>디지털영상처리</sub></td>
+      <td><sub>Image Denoising (영상 노이즈 제거)</sub></td>
+      <td><sub>개인</sub></td>
+    </tr>
   </tbody>
 </table>
