@@ -16,6 +16,12 @@
   <tbody>
     <tr>
       <td><sub>2024-1</sub></td>
+      <td><sub>임베디드시스템설계 및 실습</sub></td>
+      <td><sub>[중간] ATmega128A Number Baseball<br>[기말] ATmega128A Mole Game</sub></td>
+      <td><sub>개인</sub></td>
+    </tr>
+    <tr>
+      <td><sub>2024-1</sub></td>
       <td><sub>패턴인식과 머신러닝</sub></td>
       <td><sub>ASD 아동의 감정 이해를 돕기 위한 얼굴 표정 분류</sub></td>
       <td><sub>팀플</sub></td>
@@ -48,12 +54,6 @@
       <td><sub>2025-1</sub></td>
       <td><sub>디지털영상처리</sub></td>
       <td><sub>Image Denoising (영상 노이즈 제거)</sub></td>
-      <td><sub>개인</sub></td>
-    </tr>
-    <tr>
-      <td><sub>2024-1</sub></td>
-      <td><sub>임베디드시스템설계 및 실습</sub></td>
-      <td><sub>[중간] ATmega128A Number Baseball<br>[기말] ATmega128A Mole Game</sub></td>
       <td><sub>개인</sub></td>
     </tr>
   </tbody>
