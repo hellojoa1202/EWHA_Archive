@@ -5,6 +5,28 @@
  * 여러 주변 장치의 ISR 충돌을 줄이기 위해 기능별 인터럽트를 분리함.
  */
 
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#define F_CPU 16000000UL
+#define __DELAY_BACKWARD_COMPATIBLE__
+#include <util/delay.h>
+#include <stdlib.h>
+#include <stdio.h>
+#define RED_LED_1 PB0
+#define YELLOW_LED_1 PB1
+#define GREEN_LED_1 PB2
+#define SWITCH_1 PD0
+volatile uint8_t led_state_1 = 0;
+volatile uint8_t button_pressed_1 = 0;
+volatile int red_count = 0;
+volatile int yellow_count = 0;
+volatile int green_count = 0;
+volatile int error_count = 0;
+volatile int sound_score = 0;
+ISR(INT0_vect) {
+_delay_ms(50); // 디바운싱을 위한 짧은 지연
+if ((PIND & (1 << SWITCH_1)) == 0) {
+
 /* LED 세트 1: 외부 인터럽트와 점수 카운트 */
 button_pressed_1 = 1;
 if (led_state_1 == (1 << RED_LED_1)) {
@@ -14,8 +36,7 @@ yellow_count++; // 노란색 LED일 때 카운트 증가
 } else if (led_state_1 == (1 << GREEN_LED_1)) {
 green_count++; // 초록색 LED일 때 카운트 증가
 } else {
-error_count++; // LED가 아무것도 켜져 있지 않은 경우 에러 카운
-트 증가
+error_count++; // LED가 아무것도 켜져 있지 않은 경우 에러 카운트 증가
 }
 }
 EIFR |= (1 << INTF0); // 인터럽트 플래그 클리어
@@ -68,8 +89,7 @@ yellow_count++; // 노란색 LED일 때 카운트 증가
 } else if (led_state_2 == (1 << GREEN_LED_2)) {
 green_count++; // 초록색 LED일 때 카운트 증가
 } else {
-error_count++; // LED가 아무것도 켜져 있지 않은 경우 에러 카운
-트 증가
+error_count++; // LED가 아무것도 켜져 있지 않은 경우 에러 카운트 증가
 }
 }
 EIFR |= (1 << INTF1); // 인터럽트 플래그 클리어
@@ -124,8 +144,7 @@ yellow_count++; // 노란색 LED일 때 카운트 증가
 } else if (led_state_3 == (1 << GREEN_LED_3)) {
 green_count++; // 초록색 LED일 때 카운트 증가
 } else {
-error_count++; // LED가 아무것도 켜져 있지 않은 경우 에러 카운
-트 증가
+error_count++; // LED가 아무것도 켜져 있지 않은 경우 에러 카운트 증가
 }
 }
 EIFR |= (1 << INTF2); // 인터럽트 플래그 클리어
