@@ -52,9 +52,9 @@
     </tr>
     <tr>
       <td><sub>2024-1</sub></td>
-      <td><sub>임베디드시스템설계및실답</sub></td>
+      <td><sub>임베디드시스템설계 및 실습</sub></td>
       <td><sub>[중간] ATmega128A Number Baseball<br>[기말] ATmega128A Mole Game</sub></td>
-      <td><sub>媛쒖씤</sub></td>
+      <td><sub>개인</sub></td>
     </tr>
   </tbody>
 </table>
